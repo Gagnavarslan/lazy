@@ -8,7 +8,7 @@ Assuming you use virtualenvwrapper, you need to set up your environment,
 prior to being able to release:
 
     mkvirtualenv lazy
-    pip install -r release-requirements.txt
+    pip install -r requirements/release.txt
 
 Now you can release, by changing version numbers in setup.py, and running:
 
