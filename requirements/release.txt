@@ -1,0 +1,5 @@
+--extra-index-url https://pypi.coredata.is/simple
+
+fabric
+azazofabric
+wheel
