@@ -1,6 +1,6 @@
 #coding: utf-8
-from importlib import import_class
-from lazy_object import LazyObject
+from lazy.importlib import import_class
+from lazy.lazy_object import LazyObject
 import os
 
 
