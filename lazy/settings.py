@@ -27,7 +27,7 @@ class Settings(object):
     def _import_module(self, module_name):
         try:
             return import_module(module_name)
-        except ImportError, e:
+        except ImportError as e:
             raise ImportError("Could not import settings '%s' "
                               "(Is it on sys.path? Does it have syntax errors?)"
                               ": %s" % (module_name, e))
